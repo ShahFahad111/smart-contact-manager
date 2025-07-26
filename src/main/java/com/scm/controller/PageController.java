@@ -31,7 +31,7 @@ public class PageController {
         return "about";
     }
     
-    //services
+    //services route
 
      @RequestMapping("/services")
     public String servicesPage() {
