@@ -33,9 +33,30 @@ public class PageController {
     
     //services route
 
-     @RequestMapping("/services")
+    @RequestMapping("/services")
     public String servicesPage() {
         System.out.println("Services Page Loading");
         return "services";
+    }
+
+    // conatct page
+    @RequestMapping("/contact")
+    public String contactPage() {
+        System.out.println("Contact Page Loading");
+        return "contact";
+    }
+
+    // login page
+    @RequestMapping("/login")
+    public String loginPage() {
+        System.out.println("Login Page Loading");
+        return "login";
+    }
+
+    // signup page
+    @RequestMapping("/register")
+    public String registerPage() {
+        System.out.println("register Page Loading");
+        return "register";
     }
 }
