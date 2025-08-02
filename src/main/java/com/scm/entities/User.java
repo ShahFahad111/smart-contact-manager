@@ -37,10 +37,10 @@ public class User {
     private String password;
     private String phoneNumber;
 
-    @Column(length =  100000)
+    @Column(length =  1000)
     private String about;
 
-    @Column(length = 100000)
+    @Column(length = 1000)
     private String profilePic;
 
     private boolean enabled = false;
