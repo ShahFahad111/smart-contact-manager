@@ -22,7 +22,7 @@ public class Contact {
     private String phoneNumber;
     private String address;
     private String picture;
-    @Column(length = 10000)
+    @Column(length = 1000)
     private String description;
 
     private boolean favourite;
